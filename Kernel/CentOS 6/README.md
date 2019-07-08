@@ -5,5 +5,5 @@ wget --no-check-certificate https://raw.githubusercontent.com/xiyangdiy/Save/mas
 cat kernel-2.6.32-504.3.3.el6.x86_64.tar.gz* | tar zx  
 rm -f kernel-2.6.32-504.3.3.el6.x86_64.tar.gz*  
 ## 安装：  
-rpm -ivh kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm  
-rpm -ivh kernel-2.6.32-504.3.3.el6.x86_64.rpm  
+rpm -ivh kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm --force  
+rpm -ivh kernel-2.6.32-504.3.3.el6.x86_64.rpm --force  
